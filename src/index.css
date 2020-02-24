@@ -1,0 +1,21 @@
+.modal {
+  padding: 12px;
+  background: slateblue;
+  width: 320px;
+  text-align: center;
+}
+
+.click-catcher, .click-catcher--open {
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.click-catcher--open {
+  display: flex;
+}
